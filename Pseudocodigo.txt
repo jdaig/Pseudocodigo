@@ -1,0 +1,18 @@
+SET students array with name as the key and grade as the value.
+INITIALIZE METHOD best_students
+  INITIALIZE array variable best_students
+  SET x and y values EQUAL to 0
+  WHILE y is less than students length
+    SET variable current_students equal to students[y][x]
+    IF current_student value == 10
+      ADD student to best_students
+    END IF
+    IF x is equal to the length of students in y minus 1
+      SET x equal to 0
+      INCREASE y /due to its our counter/
+    ELSE 
+      increase the value of x
+    END IF
+  END WHILE.
+  PRINT best_students.
+END METHOD.
